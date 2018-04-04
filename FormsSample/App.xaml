@@ -1,6 +1,33 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FormsSample.App">
     <Application.Resources>
         <!-- Application resource dictionary -->
+
+        <ResourceDictionary>
+
+            <Color x:Key="CustomerRed">#f44242</Color>
+            <Color x:Key="CustomerAccent">#dff441</Color>
+            <Color x:Key="DisabledColor">#ffc4c4</Color>
+
+                   
+            <!-- Styles -->
+
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{StaticResource CustomerAccent}"/>
+                <Setter Property="BarTextColor" Value="White"/>
+            </Style>
+            <!-- Styles -->
+
+            <Style x:Key="RedButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource CustomerRed}"/>
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+            <Style x:Key="AccentButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource CustomerAccent}"/>
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+
+        </ResourceDictionary>
+        
     </Application.Resources>
 </Application>

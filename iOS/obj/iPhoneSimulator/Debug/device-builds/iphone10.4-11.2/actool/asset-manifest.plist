@@ -6,6 +6,7 @@
 	<dict>
 		<key>output-files</key>
 		<array>
+			<string>/Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/bundle/LaunchImage-700-568h@2x.png</string>
 			<string>/Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/partial-info.plist</string>
 		</array>
 	</dict>

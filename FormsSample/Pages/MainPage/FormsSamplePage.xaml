@@ -11,14 +11,14 @@
                            IsVisible="{Binding IsLoading}" 
                            HorizontalOptions="FillAndExpand"></ActivityIndicator>
         
-        <ListView x:Name="list" HasUnevenRows="true">
+        <ListView x:Name="list" HasUnevenRows="true" ItemTapped="Handle_ItemTapped">
             <ListView.ItemTemplate>
                 
                 <DataTemplate>
                     <ViewCell>
 
                         <StackLayout>
-                            <Label Text="{Binding id}" FontSize="Bold"></Label>
+                            <Label Text="{Binding id}" FontAttributes="Bold"></Label>
                             <Label Text="{Binding title}"></Label>
                         </StackLayout>
                         

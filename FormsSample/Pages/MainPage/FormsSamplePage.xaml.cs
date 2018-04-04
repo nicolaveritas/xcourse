@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using FormsSample.MainPage;
+using FormsSample.Pages.DetailPage;
 
 namespace FormsSample
 {
@@ -21,7 +22,7 @@ namespace FormsSample
             BindingContext = _vm = new MainPageViewModel();
             InitializeComponent();
             Title = "Main Page";
-            _vm.Loading = "Is Loading";
+            _vm.IsLoading = true;
             list.ItemsSource = _posts;
 
             Init();
@@ -38,7 +39,16 @@ namespace FormsSample
                 _posts.Add(item);
             }
 
-            _vm.Loading = "Has finished loading";
+            _vm.IsLoading = false;
+        }
+
+        void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
+        {
+            list.SelectedItem = null;
+            var item = e.Item as Post;
+            if (item != null) {
+                Navigation.PushAsync(new DetailPage(item));
+            }
         }
     }
 }

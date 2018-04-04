@@ -13,6 +13,10 @@
 /Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/bin/Debug/Newtonsoft.Json.xml
 /Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/obj/Debug/FormsSample.csproj.CoreCompileInputs.cache
 /Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/obj/Debug/FormsSample.App.xaml.g.cs
-/Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/obj/Debug/FormsSample.MainPage.FormsSamplePage.xaml.g.cs
 /Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/obj/Debug/FormsSample.dll
 /Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/obj/Debug/FormsSample.pdb
+/Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/obj/Debug/FormsSample.Pages.MainPage.FormsSamplePage.xaml.g.cs
+/Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/obj/Debug/FormsSample.Pages.DetailPage.DetailPage.xaml.g.cs
+/Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/obj/Debug/FormsSample.Pages.MasterPage.RootPage.xaml.g.cs
+/Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/obj/Debug/FormsSample.Pages.MasterPage.MasterPage.xaml.g.cs
+/Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/obj/Debug/FormsSample.Pages.InfoPage.InfoPage.xaml.g.cs

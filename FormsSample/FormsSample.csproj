@@ -29,7 +29,23 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
-    <EmbeddedResource Include="MainPage\FormsSamplePage.xaml" />
+    <EmbeddedResource Include="Pages\MainPage\FormsSamplePage.xaml" />
+    <EmbeddedResource Include="Pages\DetailPage\DetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MasterPage\RootPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MasterPage\MasterPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\InfoPage\InfoPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -38,11 +54,27 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\RestService.cs" />
     <Compile Include="Models\Post.cs" />
-    <Compile Include="MainPage\FormsSamplePage.xaml.cs">
-      <DependentUpon>FormsSamplePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MainPage\MainPageViewModel.cs" />
     <Compile Include="Commons\BaseViewModel.cs" />
+    <Compile Include="Pages\MainPage\FormsSamplePage.xaml.cs">
+      <DependentUpon>..\..\MainPage\FormsSamplePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MainPage\MainPageViewModel.cs" />
+    <Compile Include="Pages\DetailPage\DetailPage.xaml.cs">
+      <DependentUpon>DetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DetailPage\DetailPageViewModel.cs" />
+    <Compile Include="Pages\MasterPage\RootPage.xaml.cs">
+      <DependentUpon>RootPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MasterPage\MasterPage.xaml.cs">
+      <DependentUpon>MasterPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MasterPage\MasterPageItem.cs" />
+    <Compile Include="Pages\InfoPage\InfoPage.xaml.cs">
+      <DependentUpon>InfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\InfoPage\IBatteryInfo.cs" />
+    <Compile Include="Interfaces\IMessage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -64,8 +96,13 @@
   <ItemGroup>
     <Folder Include="Services\" />
     <Folder Include="Models\" />
-    <Folder Include="MainPage\" />
     <Folder Include="Commons\" />
+    <Folder Include="Pages\" />
+    <Folder Include="Pages\MainPage\" />
+    <Folder Include="Pages\DetailPage\" />
+    <Folder Include="Pages\MasterPage\" />
+    <Folder Include="Pages\InfoPage\" />
+    <Folder Include="Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.121934\build\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.121934\build\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.targets')" />

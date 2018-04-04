@@ -6,11 +6,11 @@ namespace FormsSample.MainPage
     public class MainPageViewModel : BaseViewModel
     {
 
-        private string loading = "Not loading";
-        public string Loading 
+        private bool isLoading = false;
+        public bool IsLoading 
         {
-            get => loading;
-            set => SetProperty(ref loading, value);
+            get => isLoading;
+            set => SetProperty(ref isLoading, value);
         }
  
 

@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using FormsSample.Pages.MasterPage;
 
 namespace FormsSample
 {
@@ -8,7 +9,7 @@ namespace FormsSample
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new FormsSamplePage());
+            MainPage = new RootPage();
         }
 
         protected override void OnStart()
