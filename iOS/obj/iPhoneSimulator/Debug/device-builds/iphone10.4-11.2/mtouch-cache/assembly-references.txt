@@ -32,6 +32,9 @@
 /Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.8.1.28/lib/mono/Xamarin.iOS/Facades/System.Text.RegularExpressions.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.8.1.28/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tools.dll
+/Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/packages/SkiaSharp.Views.Forms.1.60.0/lib/XamariniOS/SkiaSharp.Views.Forms.dll
+/Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/packages/SkiaSharp.Views.1.60.0/lib/XamariniOS/SkiaSharp.Views.iOS.dll
+/Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/packages/SkiaSharp.1.60.0/lib/XamariniOS/SkiaSharp.dll
 /Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/bin/Debug/Newtonsoft.Json.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.8.1.28/lib/mono/Xamarin.iOS/Facades/System.Resources.ResourceManager.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.8.1.28/lib/mono/Xamarin.iOS/Facades/System.Xml.XDocument.dll

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:entry="clr-namespace:FormsSample.Components"
              x:Class="FormsSample.Pages.Info.InfoPage">
     <ContentPage.Content>
 
         <StackLayout>
             <Button Text="Get battery info" Clicked="Handle_Clicked"></Button>
             <Label x:Name="infoLabel"></Label>
+            <entry:MyEntry x:Name="myEntry" TextChanged="Handle_TextChanged"></entry:MyEntry>
         </StackLayout>
         
     </ContentPage.Content>

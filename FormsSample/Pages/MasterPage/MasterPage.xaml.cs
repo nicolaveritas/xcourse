@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Xamarin.Forms;
 using System.Collections.ObjectModel;
 using FormsSample.Pages.Info;
+using FormsSample.Pages.Canvas;
 
 namespace FormsSample.Pages.MasterPage
 {
@@ -35,6 +36,11 @@ namespace FormsSample.Pages.MasterPage
             {
                 Title = "Info page",
                 TargetType = typeof(InfoPage)
+            });
+            items.Add(new MasterPageItem
+            {
+                Title = "Canvas Page",
+                TargetType = typeof(CanvasPage)
             });
 
             menu.ItemsSource = items;

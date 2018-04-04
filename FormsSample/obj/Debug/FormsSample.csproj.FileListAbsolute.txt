@@ -20,3 +20,7 @@
 /Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/obj/Debug/FormsSample.Pages.MasterPage.RootPage.xaml.g.cs
 /Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/obj/Debug/FormsSample.Pages.MasterPage.MasterPage.xaml.g.cs
 /Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/obj/Debug/FormsSample.Pages.InfoPage.InfoPage.xaml.g.cs
+/Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/bin/Debug/SkiaSharp.dll
+/Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/bin/Debug/SkiaSharp.Views.Forms.dll
+/Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/bin/Debug/SkiaSharp.xml
+/Users/6i4NNi/Desktop/Xamarin.Course/FormsSample/FormsSample/obj/Debug/FormsSample.Pages.Canvas.CanvasPage.xaml.g.cs

@@ -36,5 +36,13 @@ namespace FormsSample.Pages.Info
                 DisplayAlert("test", text, "OK");
             }
         }
+
+        void Handle_TextChanged(object sender, Xamarin.Forms.TextChangedEventArgs e)
+        {
+            var text = e.NewTextValue;
+            System.Diagnostics.Debug.WriteLine(text);
+
+
+        }
     }
 }
